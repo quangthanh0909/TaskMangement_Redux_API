@@ -22,10 +22,10 @@ const Sort = ({onSort=f=>f}) => {
           <button className="dropdown-item" href="#" name='name' value='name.-1' onClick={(e)=>onSort(e.target.value)}>
             Z-A Name
           </button>
-          <button className="dropdown-item" href="#" name='status' value='statusStr.1' onClick={(e)=>onSort(e.target.value)}>
+          <button className="dropdown-item" href="#" name='status' value='status.1' onClick={(e)=>onSort(e.target.value)}>
             Active
           </button>
-          <button className="dropdown-item" href="#" name='status' value='statusStr.-1' onClick={(e)=>onSort(e.target.value)}>
+          <button className="dropdown-item" href="#" name='status' value='status.-1' onClick={(e)=>onSort(e.target.value)}>
             Disactive
           </button>
         </div>
